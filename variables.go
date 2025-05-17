@@ -10,6 +10,7 @@ func variable() {
 	fmt.Println(a)
 
 	// Go's short variable declaration operator := works with every type
+	// Works only with var, not with const
 	x := "initial"
 	fmt.Println(x)
 
