@@ -7,6 +7,7 @@ func main() {
 	sayGreet() // call the function defined in hello-world.go
 	variable()
 	looping()
+	do()
 }
 
 // In a Go main package (an executable program),
