@@ -18,3 +18,5 @@ func main() {
 
 // Rule in Go:
 // Function names are immutable identifiers — you cannot assign values to them.
+
+// The underscore _ is called the blank identifier, and it's a special placeholder used when you want to ignore a value (usually a return value or an error) that you don't need.
