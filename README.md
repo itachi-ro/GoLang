@@ -101,12 +101,12 @@ Explore deeper concepts in Go:
 
 ## 📦 Helpful Libraries
 
-| Feature             | Package         |
-|---------------------|-----------------|
+| Feature             | Package              |
+|---------------------|----------------------|
 | HTTP Router         | `gorilla/mux`, `chi` |
-| ORM                 | `gorm`          |
-| Configuration       | `viper`         |
-| CLI Apps            | `cobra`         |
+| ORM                 | `gorm`               |
+| Configuration       | `viper`              |
+| CLI Apps            | `cobra`              |
 
 ---
 
