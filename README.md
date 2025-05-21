@@ -121,6 +121,6 @@ Explore deeper concepts in Go:
 
 Happy Coding! 🎉
 
-### Projects List (DONE)
+### Projects List 
 - Simple Calculator (CLI) 
 
