@@ -24,7 +24,6 @@ A structured roadmap to learn GoLang from beginner to advanced levels.
 
 **YouTube:**
 - [Tech With Tim – Golang for Beginners](https://www.youtube.com/playlist?list=PLzMcBGfZo4-lB8MZfHPLTEHO9zJDDLpYj)
-- [Golang Dojo](https://www.youtube.com/@golangdojo)
 
 **Web:**
 - [Tour of Go (official)](https://tour.golang.org/)
