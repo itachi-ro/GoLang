@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func calculator4() {
 	reader := bufio.NewReader(os.Stdin)
 
 	fmt.Print("Enter first number: ")
