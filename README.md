@@ -121,8 +121,6 @@ Explore deeper concepts in Go:
 
 Happy Coding! 🎉
 
-### Projects List
+### Projects List (DONE)
 - Simple Calculator (CLI) 
-- In-Memory To-Do List
-- Temperature Converter
-- Word Counter (reads from text file)
+
