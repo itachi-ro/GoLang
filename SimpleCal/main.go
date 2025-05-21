@@ -8,4 +8,5 @@ func main() {
 	calulator()
 	calulator2()
 	calculator3()
+	calculator4()
 }
