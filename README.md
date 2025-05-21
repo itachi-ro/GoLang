@@ -3,6 +3,7 @@
 A structured roadmap to learn GoLang from beginner to advanced levels.
 
 ---
+### [Projects I have Completed ✅](#project-list)
 
 ## 📘 Phase 1: Basics (Week 1–2)
 
@@ -119,3 +120,9 @@ Explore deeper concepts in Go:
 ---
 
 Happy Coding! 🎉
+
+### Projects List
+- Simple Calculator (CLI) 
+- In-Memory To-Do List
+- Temperature Converter
+- Word Counter (reads from text file)
