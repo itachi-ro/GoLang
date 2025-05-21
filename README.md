@@ -3,7 +3,7 @@
 A structured roadmap to learn GoLang from beginner to advanced levels.
 
 ---
-### [Projects I have Completed ✅](#project-list)
+### [Projects I have Completed ✅](#projects-list)
 
 ## 📘 Phase 1: Basics (Week 1–2)
 
