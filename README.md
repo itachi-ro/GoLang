@@ -176,3 +176,33 @@ todoList = append(todoList[:index-1], todoList[index:]...)
 📌 **Important:**  
 `todoList[index:]` means:  
 > From index **`index`** **onward**, including the element at that index — **not** from the next one.
+
+
+## 📘 Go Data Types and Their Default Values
+
+| Category         | Data Type        | Default Value |
+|------------------|------------------|----------------|
+| **Integer**       | `int`            | `0`            |
+|                  | `int8`           | `0`            |
+|                  | `int16`          | `0`            |
+|                  | `int32`          | `0`            |
+|                  | `int64`          | `0`            |
+| **Unsigned Int**  | `uint`           | `0`            |
+|                  | `uint8`          | `0`            |
+|                  | `uint16`         | `0`            |
+|                  | `uint32`         | `0`            |
+|                  | `uint64`         | `0`            |
+| **Float**         | `float32`        | `0`            |
+|                  | `float64`        | `0`            |
+| **Complex**       | `complex64`      | `(0+0i)`       |
+|                  | `complex128`     | `(0+0i)`       |
+| **Boolean**       | `bool`           | `false`        |
+| **String**        | `string`         | `""` (empty)   |
+| **Array**         | `[n]T`           | Elements with zero value of type `T` |
+| **Slice**         | `[]T`            | `nil`          |
+| **Map**           | `map[K]V`        | `nil`          |
+| **Pointer**       | `*T`             | `nil`          |
+| **Channel**       | `chan T`         | `nil`          |
+| **Function**      | `func`           | `nil`          |
+| **Interface**     | `interface{}`    | `nil`          |
+| **Struct**        | `struct`         | Each field gets zero value |
