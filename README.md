@@ -123,4 +123,62 @@ Happy Coding! 🎉
 
 ### Projects List 
 - Simple Calculator (CLI) 
+- To-do List (In Memory)
 
+---
+
+# 🧭 GoLang Learning Roadmap
+
+A structured roadmap to learn GoLang from beginner to advanced levels.
+
+---
+
+## 📘 Key Learnings from To-do List Project
+
+In the **To-do List (In Memory)** project, I learned:
+
+### 🔢 Use of `strconv.Atoi()`
+
+- **Purpose:** Converts a string to an integer.
+- **Example:** User input from `bufio.Reader` returns a string like `"3"`.  
+  Using `strconv.Atoi("3")` returns the integer `3`.
+
+```go
+index, err := strconv.Atoi(indexInput)
+```
+
+- **Error Handling:**  
+  If the input is not a valid number (e.g., `"abc"`), it returns an error.
+  Always check for errors to avoid crashes.
+
+```go
+if err != nil {
+    fmt.Println("Invalid input:", err)
+    return
+}
+```
+
+---
+
+### ✂️ Deleting an Element from a Slice
+
+Let’s say you have a slice:
+
+```go
+todoList := []string{"Task1", "Task2", "Task3", "Task4"}
+```
+
+You want to delete the element at `index = 2` (1-based, i.e., delete `"Task2"`):
+
+```go
+todoList = append(todoList[:index-1], todoList[index:]...)
+```
+
+- `todoList[:index-1]` → elements before `"Task2"` (i.e., `"Task1"`)
+- `todoList[index:]` → elements after `"Task2"` (i.e., `"Task3"`, `"Task4"`)
+
+`append()` combines them, effectively removing `"Task2"`.
+
+📌 **Important:**  
+`todoList[index:]` means:  
+> From index **`index`** **onward**, including the element at that index — **not** the next one.
