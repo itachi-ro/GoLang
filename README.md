@@ -175,4 +175,4 @@ todoList = append(todoList[:index-1], todoList[index:]...)
 
 📌 **Important:**  
 `todoList[index:]` means:  
-> From index **`index`** **onward**, including the element at that index — **not** the next one.
+> From index **`index`** **onward**, including the element at that index — **not** from the next one.
