@@ -9,4 +9,8 @@ func main() {
 	s[1] = "Rohan"
 
 	fmt.Println("Slice contains:", s)
+
+	s = append(s, "d")
+	s = append(s, "e", "f")
+	fmt.Println("apd:", s)
 }
